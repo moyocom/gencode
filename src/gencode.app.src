@@ -1,0 +1,15 @@
+{application, gencode,
+ [
+  {description, "游戏自动生成代码工具app"},
+  {vsn, "0.1"},
+  {modules, [
+             gencode,
+             code_transform
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
